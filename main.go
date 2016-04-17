@@ -42,7 +42,7 @@ func init() {
 
 	if cfg.VersionAndExit {
 		fmt.Printf("gimme_ec2 %s\n", version)
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	if err := cfg.validate(); err != nil {
