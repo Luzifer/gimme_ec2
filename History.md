@@ -1,4 +1,9 @@
 
+0.1.2 / 2016-04-17
+==================
+
+  * Fix: Do not validate input when printing version
+
 0.1.1 / 2016-04-17
 ==================
 
