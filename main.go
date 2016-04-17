@@ -40,13 +40,13 @@ func init() {
 	})
 	rconfig.Parse(cfg)
 
-	if err := cfg.validate(); err != nil {
-		log.Printf("Input validation failed: %s", err)
+	if cfg.VersionAndExit {
+		fmt.Printf("gimme_ec2 %s\n", version)
 		os.Exit(1)
 	}
 
-	if cfg.VersionAndExit {
-		fmt.Printf("gimme_ec2 %s", version)
+	if err := cfg.validate(); err != nil {
+		log.Printf("Input validation failed: %s", err)
 		os.Exit(1)
 	}
 
