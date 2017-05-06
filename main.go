@@ -18,7 +18,7 @@ import (
 const (
 	ubuntuReleaseTableURL = "https://cloud-images.ubuntu.com/locator/ec2/releasesTable"
 	defaultRegion         = "eu-west-1"
-	defaultUbuntuVersion  = "wily"
+	defaultUbuntuVersion  = "xenial"
 )
 
 var (
