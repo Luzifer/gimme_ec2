@@ -1,3 +1,7 @@
+# 0.1.4 / 2017-05-06
+
+  * Fix: Wily images are no longer available
+
 
 0.1.3 / 2016-04-17
 ==================
